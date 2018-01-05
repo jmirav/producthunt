@@ -21,12 +21,10 @@ test:
   database: db/test.sqlite3
 
 production:
-  # <<: *default
-  # database: db/production.sqlite3
-  adapter: postgresql
-  # encoding: unicode
-  # host: localhost
-  database: producthunt
-  pool: 5
-  username: postgres
-  password: maluva1981
+  <<: *default
+  database: db/production.sqlite3
+  # adapter: postgresql
+  # database: producthunt
+  # pool: 5
+  # username: postgres
+  # password: maluva1981
