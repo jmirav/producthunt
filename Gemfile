@@ -30,7 +30,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
-
+# Gem for including email's photo
+gem 'gravatar-ultimate'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
