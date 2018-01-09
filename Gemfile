@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-ruby '2.3.3', :engine => 'jruby', :engine_version => '9.1.15.0'
+# ruby '2.3.3', :engine => 'jruby', :engine_version => '9.1.15.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
@@ -36,7 +36,6 @@ gem 'gravatar-ultimate'
 # Gem for annotating schemas on models
 gem 'annotate'
 
-gem 'activerecord-jdbcpostgresql-adapter'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -59,6 +58,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
+  # gem 'activerecord-jdbcpostgresql-adapter'
   gem 'rails_12factor'
   gem 'pg', '~> 0.21.0'
 end
