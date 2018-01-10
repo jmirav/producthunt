@@ -35,13 +35,20 @@
         margin-top: 18px;
       }
 
-  &:hover .upvote-arrow { border-bottom-color: #F04500; }
+      &:hover .upvote-arrow { border-bottom-color: #F04500; }
 
-  &.upvote-active {
-    .upvote-arrow { border-bottom-color: #F04500; }
-    .upvote-count { color: #F04500; }
-  }
-}
+      &.upvote-active {
+        .upvote-arrow { border-bottom-color: #F04500; }
+        .upvote-count { color: #F04500; }
+      }
+    }
+
+    .product-img {
+      float: left;
+      margin-right: 30px;
+
+      img { border-radius: 3px; }
+    }
 
     .product-details {
       float: left;
