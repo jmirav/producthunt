@@ -20,7 +20,7 @@ class Product < ActiveRecord::Base
   has_many :comments
   has_many :votes
 
-  has_attached_file :image # , :styles => { medium: "300x300>", thumb: "100x100>" }
+  has_attached_file :image, styles: { medium: "300x300>", thumb: "100x100>" }
 
   validates :name, presence: true
   validates :url, presence: true

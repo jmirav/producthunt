@@ -37,8 +37,8 @@ gem 'gravatar-ultimate'
 gem 'annotate'
 
 # gem 'rmagick'
-gem "paperclip", "4.3"
-gem 'aws-sdk', '< 2.0'
+gem "paperclip", '~> 5.0.0' # git: "git://github.com/thoughtbot/paperclip.git"
+gem 'aws-sdk', '~> 2.3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
