@@ -39,6 +39,7 @@ gem 'annotate'
 # gem 'rmagick'
 gem "paperclip", '~> 5.0.0' # git: "git://github.com/thoughtbot/paperclip.git"
 gem 'aws-sdk', '~> 2.3'
+gem "figaro"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
