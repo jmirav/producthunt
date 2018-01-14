@@ -1,5 +1,5 @@
 ActionMailer::Base.smtp_settings = {
-  address:              'smtp-relay.sendinblue.com',
+  address:              'smtp.sendgrid.net',
   port:                 587,
   domain:               'localhost',
   user_name:            ENV['smtp_user'],
