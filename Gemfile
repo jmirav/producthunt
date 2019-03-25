@@ -62,9 +62,6 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
 group :production do
   # gem 'activerecord-jdbcpostgresql-adapter'
   gem 'rails_12factor'
